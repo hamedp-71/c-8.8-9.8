@@ -95,6 +95,36 @@ proxies:
     servername: "suiany.makingirangreatagain.com"
 
 
+  - name: TUIC-hamedp71🇩🇪
+    type: tuic
+    server: 217.160.125.125
+    port: 14732
+    uuid: db6d80b9-e5c5-4e56-a8ca-722ef5d86b52
+    password: 7adf542f542f808f0cb9053b70ac343f
+    sni: www.bing.com
+    alpn:
+      - h3
+    # مهم: این پارامتر جایگزین allow-insecure شده است
+    skip-cert-verify: true
+    congestion_control: bbr
+    udp_relay_mode: native
+    reduce_rtt: true
+
+  - name: TUIC-hamedp71-1🇩🇪
+    type: tuic
+    server: 217.160.125.127
+    port: 14853
+    uuid: 86ad8f63-1302-410b-9fab-835d47776b5e
+    password: f8c83c0399f1fd8fec5c27d20959a9aa
+    sni: www.bing.com
+    alpn:
+      - h3
+    # مهم: این پارامتر جایگزین allow-insecure شده است
+    skip-cert-verify: true
+    congestion_control: bbr
+    udp_relay_mode: native
+    reduce_rtt: true
+
   # کانفیگ سوم - ایتالیا
   - name: "DE-hamedp71🇩🇪"
     type: ss
@@ -126,23 +156,6 @@ proxies:
     port: 990
     cipher: chacha20-ietf-poly1305
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-
-  # کانفیگ دوم - نروژ
-  - name: "NO-hamedp71🇳🇴"
-    type: ss
-    server: 89.46.233.36
-    port: 990
-    cipher: chacha20-ietf-poly1305
-    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-
-  # کانفیگ سوم - سوئد
-  - name: "SE-hamedp71🇸🇪"
-    type: ss
-    server: 78.40.116.11
-    port: 50589
-    cipher: chacha20-ietf-poly1305
-    password: "e0AuSSE9kqrZnpK1RgcuPt"
-    
     
   - name: "🇳🇱 hamedp71 - 1"
     type: hysteria2
@@ -188,15 +201,6 @@ proxies:
     sni: ""
     obfs: salamander
     obfs-password: "khameniiko@smad@ret"
-    skip-cert-verify: true
-  - name: "🇬🇧 hamedp71 - 9"
-    type: hysteria2
-    server: yapc-1.adamhayward.co.uk
-    port: 35000
-    password: "Yet-Another-Public-Config-1"
-    sni: "YAPC-1.afshin.ir"
-    obfs: salamander
-    obfs-password: "Yet-Another-Public-Config-1"
     skip-cert-verify: true
   - name: "🇬🇧 hamedp71 13"
     type: hysteria2
@@ -1674,84 +1678,6 @@ proxies:
       h4: 3
       h3: 4
 
-  - name: "🇩🇪 Direct-VLESS"
-    type: vless
-    server: hdfynpv2d1.makingirangreatagain.com
-    port: 443
-    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
-    packet-encoding: xudp
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: hdfynpv2d1.makingirangreatagain.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
-      headers:
-        Host: hdfynpv2d1.makingirangreatagain.com
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇩🇪 AD-CDN-VLESS"
-    type: vless
-    server: hdfynpv2c1.farvaharforever.com
-    port: 443
-    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
-    packet-encoding: xudp
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: hdfynpv2c1.farvaharforever.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
-      headers:
-        Host: hdfynpv2c1.farvaharforever.com
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-
-  - name: "🇩🇪 Telegram-VLESS"
-    type: vless
-    server: hdfynpv2d1.farvaharforever.com
-    port: 443
-    uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
-    packet-encoding: xudp
-    ip-version: ipv4
-    tls: true
-    network: ws
-    tfo: true
-    mptcp: true
-    servername: hdfynpv2d1.farvaharforever.com
-    alpn: ["http/1.1"]
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    fragment:
-      packets: tlshello
-      length: '10-20'
-      interval: '10-20'
-    ws-opts:
-      path: "/Iyq035lnud9R8ruNNrqGxZZ2"
-      headers:
-        Host: hdfynpv2d1.farvaharforever.com
-      max-early-data: 2048
-      early-data-header-name: Sec-WebSocket-Protocol
-
 #Arista
 #Rayan
 #BPB
@@ -1764,17 +1690,16 @@ proxy-groups:
       - "اتصال❤️خودکار"
       - "⛓️عمو زنجیر باف⛓️"
       - "🤍 وارپ"
+      - "TUIC-hamedp71🇩🇪"
+      - "TUIC-hamedp71-1🇩🇪"
       - "DE-hamedp71🇩🇪"
       - "GB-hamedp71🇬🇧"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
-      - "NO-hamedp71🇳🇴"
-      - "SE-hamedp71🇸🇪"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
-      - "🇳🇱 hamedp71 - 6"
       - "🇬🇧 hamedp71 - 9"
       - "🇬🇧 hamedp71 13"
       - "hamedp71-🇵🇱-47"
@@ -1789,6 +1714,8 @@ proxy-groups:
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
       - "hamedp71-🇵🇱-68"
+      - "🇩🇪 ShadowTLS-Proxy"
+      - "🇩🇪 anytls-443"
 
   - name: "اتصال❤️خودکار"
     type: url-test
@@ -1796,18 +1723,17 @@ proxy-groups:
     interval: 150
     tolerance: 60
     proxies:
+      - "TUIC-hamedp71🇩🇪"
+      - "TUIC-hamedp71-1🇩🇪"
       - "DE-hamedp71🇩🇪"
       - "GB-hamedp71🇬🇧"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
-      - "NO-hamedp71🇳🇴"
-      - "SE-hamedp71🇸🇪"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
-      - "🇬🇧 hamedp71 - 9"
       - "🇬🇧 hamedp71 13"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
