@@ -125,6 +125,54 @@ proxies:
     udp_relay_mode: native
     reduce_rtt: true
 
+  - name: TUIC-hamedp71-2🇩🇪
+    type: tuic
+    server: 217.160.125.128
+    port: 14713
+    uuid: 29e38174-279a-401e-b247-149409d0e81a
+    password: 7ec295f379c9bce0e9ee1bb56ec4b6c2
+    sni: www.bing.com
+    alpn:
+      - h3
+    skip-cert-verify: true
+    congestion_control: bbr
+    udp_relay_mode: native
+    reduce_rtt: true
+
+  - name: TUIC-🇩🇪 Dr-Anv-1
+    type: tuic
+    server: 217.160.125.127
+    port: 14873
+    uuid: 11c1f66a-9186-4623-9d03-6da9ac0b18e1
+    password: e4da1f5b695bb6aa263fc3c2d1af2cf3
+    # نسخه TUIC V5 مشخص شده است
+    tuic-version: 5
+    sni: www.bing.com
+    alpn:
+      - h3
+    # برای جلوگیری از خطای گواهی SSL
+    skip-cert-verify: true
+    congestion_control: bbr
+    udp_relay_mode: native
+    reduce_rtt: true
+
+  - name: TUIC-🇩🇪 Dr-Anv-2
+    type: tuic
+    server: 87.106.62.92
+    port: 14698
+    uuid: 454a16fd-561c-4bb8-8289-eb85107bdea6
+    password: 69f3dd149dd1a3380ed7b177d767813a
+    # نسخه TUIC V5 مشخص شده است
+    tuic-version: 5
+    sni: www.bing.com
+    alpn:
+      - h3
+    # برای جلوگیری از خطای گواهی SSL (معادل allowInsecure=1)
+    skip-cert-verify: true
+    congestion_control: bbr
+    udp_relay_mode: native
+    reduce_rtt: true
+
   # کانفیگ سوم - ایتالیا
   - name: "DE-hamedp71🇩🇪"
     type: ss
@@ -132,14 +180,6 @@ proxies:
     port: 990
     cipher: chacha20-ietf-poly1305
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-
-  # کانفیگ چهارم - بریتانیا
-  - name: "GB-hamedp71🇬🇧"
-    type: ss
-    server: 57.129.140.88
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: "k1v5g9FefdoO"
 
   # کانفیگ پنجم - مراکش
   - name: "MA-hamedp71🇲🇦"
@@ -289,13 +329,6 @@ proxies:
     port: 9046
     cipher: aes-256-cfb
     password: "NvS8N4Vf8qAGPSCL"
-    udp: true
-  - name: "hamedp71-🇵🇱-68"
-    type: ss
-    server: 217.30.10.18
-    port: 9040
-    cipher: aes-256-cfb
-    password: "p9z5BVADH2YFs3MN"
     udp: true
 
 
@@ -1692,8 +1725,10 @@ proxy-groups:
       - "🤍 وارپ"
       - "TUIC-hamedp71🇩🇪"
       - "TUIC-hamedp71-1🇩🇪"
+      - "TUIC-hamedp71-2🇩🇪"
+      - "TUIC-🇩🇪 Dr-Anv-1"
+      - "TUIC-🇩🇪 Dr-Anv-2"
       - "DE-hamedp71🇩🇪"
-      - "GB-hamedp71🇬🇧"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
       - "🇳🇱 hamedp71 - 1"
@@ -1713,7 +1748,6 @@ proxy-groups:
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
-      - "hamedp71-🇵🇱-68"
       - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
 
@@ -1725,8 +1759,10 @@ proxy-groups:
     proxies:
       - "TUIC-hamedp71🇩🇪"
       - "TUIC-hamedp71-1🇩🇪"
+      - "TUIC-hamedp71-2🇩🇪"
+      - "TUIC-🇩🇪 Dr-Anv-1"
+      - "TUIC-🇩🇪 Dr-Anv-2"
       - "DE-hamedp71🇩🇪"
-      - "GB-hamedp71🇬🇧"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
       - "🇳🇱 hamedp71 - 1"
@@ -1746,7 +1782,6 @@ proxy-groups:
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
-      - "hamedp71-🇵🇱-68"
       - "🇺🇸-hamedp71- § 0"
       - "🇵🇾-hamedp71- § 1"
       - "🇬🇧-hamedp71- § 2"
