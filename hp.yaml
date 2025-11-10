@@ -94,84 +94,142 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
+  - name: "hy2-hamedp71🏴‍☠️"
+    type: hysteria2
+    server: kevin.vpny.online
+    port: 22002
+    password: "@KevinZakarian"
+    obfs: salamander
+    obfs-password: "KevinZakarian"
+    skip-cert-verify: true
 
-  - name: TUIC-hamedp71🇩🇪
-    type: tuic
-    server: 217.160.125.125
-    port: 14732
-    uuid: db6d80b9-e5c5-4e56-a8ca-722ef5d86b52
-    password: 7adf542f542f808f0cb9053b70ac343f
-    sni: www.bing.com
+  - name: "🇫🇮🔥hamedp71🔥1"
+    type: hysteria2
+    server: channel1.saghetalaie.homes
+    port: 46914
+    password: "freehomesvpnchannel3"
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+    sni: "www.google.com"
+    skip-cert-verify: true
+
+  - name: "🇦🇺🔥hamedp71🔥2"
+    type: hysteria2
+    server: channel2.saghetalaie.homes
+    port: 46914
+    password: "freehomesvpnchannel3"
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+    sni: "www.google.com"
+    skip-cert-verify: true
+
+  - name: "🇳🇱🔥hamedp71🔥3"
+    type: hysteria2
+    server: channel3.saghetalaie.homes
+    port: 46914
+    password: "yhqy5AHofQq"
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+    sni: "www.google.com"
+    skip-cert-verify: true
+
+  - name: "🇹🇷 😎hamedp71 1"
+    type: hysteria2
+    server: kevin.vpny.online
+    port: 22002
+    password: "@KevinZakarian"
+    obfs: salamander
+    obfs-password: "KevinZakarian"
+    skip-cert-verify: true
+
+  - name: "🇺🇸 😎hamedp71 2"
+    type: hysteria2
+    server: 89.116.64.211
+    port: 11001
+    password: "4TImZd9aiT"
+    obfs: salamander
+    obfs-password: "KevinZakarian"
+    skip-cert-verify: true
+
+  - name: "🇫🇮 😎hamedp71 3"
+    type: hysteria2
+    server: channel1.saghetalaie.homes
+    port: 46914
+    password: "freehomesvpnchannel3"
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+    sni: "www.google.com"
+    skip-cert-verify: true
+
+  - name: "🇫🇷 😎hamedp71 4"
+    type: hysteria2
+    server: channel2.saghetalaie.homes
+    port: 46914
+    password: "freehomesvpnchannel3"
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+    sni: "www.google.com"
+    skip-cert-verify: true
+
+  - name: "🇳🇱 😎hamedp71 5"
+    type: hysteria2
+    server: channel3.saghetalaie.homes
+    port: 46914
+    password: "yhqy5AHofQq"
+    obfs: salamander
+    obfs-password: "&O#28YB5qK!5t#U"
+    sni: "www.bing.com"
+    skip-cert-verify: true
+
+  - name: "🇳🇱 😎hamedp71 6"
+    type: hysteria2
+    server: 206.71.158.23
+    port: 45000
+    password: "Telegram-->@Ln2Ray"
+    obfs: salamander
+    obfs-password: "Telegram-->@Ln2Ray"
+    sni: "gavazn.55994421.xyz"
+    skip-cert-verify: true
+
+  - name: "Hy2-hamedp71🇩🇪"
+    type: hysteria2
+    server: 212.227.65.132
+    port: 14850
+    password: "ieshare2025"
+    sni: "www.bing.com"
     alpn:
       - h3
-    # مهم: این پارامتر جایگزین allow-insecure شده است
     skip-cert-verify: true
-    congestion_control: bbr
-    udp_relay_mode: native
-    reduce_rtt: true
 
-  - name: TUIC-hamedp71-1🇩🇪
-    type: tuic
-    server: 217.160.125.127
-    port: 14853
-    uuid: 86ad8f63-1302-410b-9fab-835d47776b5e
-    password: f8c83c0399f1fd8fec5c27d20959a9aa
-    sni: www.bing.com
-    alpn:
-      - h3
-    # مهم: این پارامتر جایگزین allow-insecure شده است
-    skip-cert-verify: true
-    congestion_control: bbr
-    udp_relay_mode: native
-    reduce_rtt: true
-
-  - name: TUIC-hamedp71-2🇩🇪
-    type: tuic
+  - name: "Hy2-hamedp71-1🇩🇪"
+    type: hysteria2
     server: 217.160.125.128
     port: 14713
-    uuid: 29e38174-279a-401e-b247-149409d0e81a
-    password: 7ec295f379c9bce0e9ee1bb56ec4b6c2
-    sni: www.bing.com
+    password: "ieshare2025"
+    sni: "www.bing.com"
     alpn:
       - h3
     skip-cert-verify: true
-    congestion_control: bbr
-    udp_relay_mode: native
-    reduce_rtt: true
 
-  - name: TUIC-🇩🇪 Dr-Anv-1
-    type: tuic
+  - name: "Hy2-hamedp71-2🇩🇪"
+    type: hysteria2
+    server: 87.106.82.84
+    port: 14197
+    password: "ieshare2025"
+    sni: "www.bing.com"
+    alpn:
+      - h3
+    skip-cert-verify: true
+
+  - name: "Hy2-🇩🇪 Dr-Anv-1"
+    type: hysteria2
     server: 217.160.125.127
     port: 14873
-    uuid: 11c1f66a-9186-4623-9d03-6da9ac0b18e1
-    password: e4da1f5b695bb6aa263fc3c2d1af2cf3
-    # نسخه TUIC V5 مشخص شده است
-    tuic-version: 5
-    sni: www.bing.com
+    password: "ieshare2025"
+    sni: "www.bing.com"
     alpn:
       - h3
-    # برای جلوگیری از خطای گواهی SSL
     skip-cert-verify: true
-    congestion_control: bbr
-    udp_relay_mode: native
-    reduce_rtt: true
-
-  - name: TUIC-🇩🇪 Dr-Anv-2
-    type: tuic
-    server: 87.106.62.92
-    port: 14698
-    uuid: 454a16fd-561c-4bb8-8289-eb85107bdea6
-    password: 69f3dd149dd1a3380ed7b177d767813a
-    # نسخه TUIC V5 مشخص شده است
-    tuic-version: 5
-    sni: www.bing.com
-    alpn:
-      - h3
-    # برای جلوگیری از خطای گواهی SSL (معادل allowInsecure=1)
-    skip-cert-verify: true
-    congestion_control: bbr
-    udp_relay_mode: native
-    reduce_rtt: true
 
   # کانفیگ سوم - ایتالیا
   - name: "DE-hamedp71🇩🇪"
@@ -1721,16 +1779,25 @@ proxy-groups:
     type: select
     proxies: 
       - "اتصال❤️خودکار"
-      - "⛓️عمو زنجیر باف⛓️"
       - "🤍 وارپ"
-      - "TUIC-hamedp71🇩🇪"
-      - "TUIC-hamedp71-1🇩🇪"
-      - "TUIC-hamedp71-2🇩🇪"
-      - "TUIC-🇩🇪 Dr-Anv-1"
-      - "TUIC-🇩🇪 Dr-Anv-2"
+      - "⛓️عمو زنجیر باف⛓️"
+      - "hy2-hamedp71🏴‍☠️"
+      - "🇫🇮🔥hamedp71🔥1"
+      - "🇳🇱🔥hamedp71🔥3"
+      - "🇹🇷 😎hamedp71 1"
+      - "🇫🇮 😎hamedp71 3"
+      - "🇳🇱 😎hamedp71 5"
+      - "🇳🇱 😎hamedp71 6"
+      - "Hy2-hamedp71🇩🇪"
+      - "Hy2-hamedp71-1🇩🇪"
+      - "Hy2-hamedp71-2🇩🇪"
+      - "Hy2-🇩🇪 Dr-Anv-1"
+      - "🇦🇺🔥hamedp71🔥2"
+      - "🇺🇸 😎hamedp71 2"
+      - "🇫🇷 😎hamedp71 4"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
-      - "AR-hamedp71🇦🇷"
+      - "AR-hamedp71🇦🇷"  
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
@@ -1757,11 +1824,19 @@ proxy-groups:
     interval: 30
     tolerance: 120
     proxies:
-      - "TUIC-hamedp71🇩🇪"
-      - "TUIC-hamedp71-1🇩🇪"
-      - "TUIC-hamedp71-2🇩🇪"
-      - "TUIC-🇩🇪 Dr-Anv-1"
-      - "TUIC-🇩🇪 Dr-Anv-2"
+      - "🇫🇮🔥hamedp71🔥1"
+      - "🇳🇱🔥hamedp71🔥3"
+      - "🇹🇷 😎hamedp71 1"
+      - "🇫🇮 😎hamedp71 3"
+      - "🇳🇱 😎hamedp71 5"
+      - "🇳🇱 😎hamedp71 6"
+      - "Hy2-hamedp71🇩🇪"
+      - "Hy2-hamedp71-1🇩🇪"
+      - "Hy2-hamedp71-2🇩🇪"
+      - "Hy2-🇩🇪 Dr-Anv-1"
+      - "🇦🇺🔥hamedp71🔥2"
+      - "🇺🇸 😎hamedp71 2"
+      - "🇫🇷 😎hamedp71 4"
       - "DE-hamedp71🇩🇪"
       - "MA-hamedp71🇲🇦"
       - "AR-hamedp71🇦🇷"
