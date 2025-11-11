@@ -191,48 +191,21 @@ proxies:
     sni: "gavazn.55994421.xyz"
     skip-cert-verify: true
 
-  - name: "Hy2-hamedp71🇩🇪"
-    type: hysteria2
-    server: 212.227.65.132
-    port: 14850
-    password: "ieshare2025"
-    sni: "www.bing.com"
+  - name: "Dr-Anv 🇨🇦"
+    type: tuic
+    server: 40.233.77.57
+    port: 52434
+    uuid: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+    password: a13a6ce4-cafa-4b26-a710-a03aa91c5418
+    sni: www.bing.com
     alpn:
       - h3
-    skip-cert-verify: true
-
-  - name: "Hy2-hamedp71-1🇩🇪"
-    type: hysteria2
-    server: 217.160.125.128
-    port: 14713
-    password: "ieshare2025"
-    sni: "www.bing.com"
-    alpn:
-      - h3
-    skip-cert-verify: true
-
-  - name: "Hy2-hamedp71-2🇩🇪"
-    type: hysteria2
-    server: 87.106.82.84
-    port: 14197
-    password: "ieshare2025"
-    sni: "www.bing.com"
-    alpn:
-      - h3
-    skip-cert-verify: true
-
-  - name: "Hy2-🇩🇪 Dr-Anv-1"
-    type: hysteria2
-    server: 217.160.125.127
-    port: 14873
-    password: "ieshare2025"
-    sni: "www.bing.com"
-    alpn:
-      - h3
+    udp-relay-mode: native
+    congestion-controller: cubic
     skip-cert-verify: true
 
   # کانفیگ سوم - ایتالیا
-  - name: "DE-hamedp71🇩🇪"
+  - name: "SS-hamedp71🇩🇪"
     type: ss
     server: 176.126.83.158
     port: 990
@@ -240,7 +213,7 @@ proxies:
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
 
   # کانفیگ پنجم - مراکش
-  - name: "MA-hamedp71🇲🇦"
+  - name: "SS-hamedp71🇲🇦"
     type: ss
     server: 188.214.157.58
     port: 990
@@ -248,7 +221,7 @@ proxies:
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="   
 
   # کانفیگ اول - آرژانتین
-  - name: "AR-hamedp71🇦🇷"
+  - name: "SS-hamedp71🇦🇷"
     type: ss
     server: 190.103.176.32
     port: 990
@@ -1782,28 +1755,25 @@ proxy-groups:
       - "🤍 وارپ"
       - "⛓️عمو زنجیر باف⛓️"
       - "hy2-hamedp71🏴‍☠️"
+      - "Dr-Anv 🇨🇦"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
       - "🇹🇷 😎hamedp71 1"
       - "🇫🇮 😎hamedp71 3"
       - "🇳🇱 😎hamedp71 5"
       - "🇳🇱 😎hamedp71 6"
-      - "Hy2-hamedp71🇩🇪"
-      - "Hy2-hamedp71-1🇩🇪"
-      - "Hy2-hamedp71-2🇩🇪"
-      - "Hy2-🇩🇪 Dr-Anv-1"
       - "🇦🇺🔥hamedp71🔥2"
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇷 😎hamedp71 4"
-      - "DE-hamedp71🇩🇪"
-      - "MA-hamedp71🇲🇦"
-      - "AR-hamedp71🇦🇷"  
+      - "SS-hamedp71🇲🇦"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
       - "🇬🇧 hamedp71 13"
+      - "SS-hamedp71🇩🇪"
+      - "SS-hamedp71🇦🇷"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
@@ -1824,28 +1794,25 @@ proxy-groups:
     interval: 30
     tolerance: 120
     proxies:
+      - "Dr-Anv 🇨🇦"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
       - "🇹🇷 😎hamedp71 1"
       - "🇫🇮 😎hamedp71 3"
       - "🇳🇱 😎hamedp71 5"
       - "🇳🇱 😎hamedp71 6"
-      - "Hy2-hamedp71🇩🇪"
-      - "Hy2-hamedp71-1🇩🇪"
-      - "Hy2-hamedp71-2🇩🇪"
-      - "Hy2-🇩🇪 Dr-Anv-1"
       - "🇦🇺🔥hamedp71🔥2"
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇷 😎hamedp71 4"
-      - "DE-hamedp71🇩🇪"
-      - "MA-hamedp71🇲🇦"
-      - "AR-hamedp71🇦🇷"
+      - "SS-hamedp71🇲🇦"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
       - "🇬🇧 hamedp71 13"
+      - "SS-hamedp71🇩🇪"
+      - "SS-hamedp71🇦🇷"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
