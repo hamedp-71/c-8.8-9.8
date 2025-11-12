@@ -191,7 +191,7 @@ proxies:
     sni: "gavazn.55994421.xyz"
     skip-cert-verify: true
 
-  - name: "Dr-Anv 🇨🇦"
+  - name: Dr-Anv 🇨🇦
     type: tuic
     server: 40.233.77.57
     port: 52434
@@ -200,9 +200,22 @@ proxies:
     sni: www.bing.com
     alpn:
       - h3
-    udp-relay-mode: native
-    congestion-controller: cubic
+    # معادل allow_insecure=1
     skip-cert-verify: true
+    congestion_control: cubic
+    udp_relay_mode: native
+
+
+  - name: 🇳🇱+🇬🇧 hamedp71 ❤️
+    type: hysteria2
+    server: 193.142.59.41
+    port: 23899
+    password: c232f411-96b5-4b07-b2f7-66a434725ffb
+    sni: hl01.mistea.top
+    skip-cert-verify: true
+    up-speed: 50 mbps
+    down-speed: 200 mbps
+
 
   # کانفیگ سوم - ایتالیا
   - name: "SS-hamedp71🇩🇪"
@@ -1754,24 +1767,26 @@ proxy-groups:
       - "اتصال❤️خودکار"
       - "🤍 وارپ"
       - "⛓️عمو زنجیر باف⛓️"
+      - "🇩🇪 ShadowTLS-Proxy"
       - "hy2-hamedp71🏴‍☠️"
       - "Dr-Anv 🇨🇦"
+      - "🇳🇱+🇬🇧 hamedp71 ❤️"
+      - "🇹🇷 😎hamedp71 1"
+      - "🇳🇱 😎hamedp71 6"
+      - "🇺🇸 😎hamedp71 2"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
-      - "🇹🇷 😎hamedp71 1"
+      - "🇫🇷 😎hamedp71 4"
       - "🇫🇮 😎hamedp71 3"
       - "🇳🇱 😎hamedp71 5"
-      - "🇳🇱 😎hamedp71 6"
       - "🇦🇺🔥hamedp71🔥2"
-      - "🇺🇸 😎hamedp71 2"
-      - "🇫🇷 😎hamedp71 4"
-      - "SS-hamedp71🇲🇦"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
       - "🇬🇧 hamedp71 13"
+      - "SS-hamedp71🇲🇦"
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
       - "hamedp71-🇵🇱-47"
@@ -1785,7 +1800,6 @@ proxy-groups:
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
       - "hamedp71-🇵🇱-67"
-      - "🇩🇪 ShadowTLS-Proxy"
       - "🇩🇪 anytls-443"
 
   - name: "اتصال❤️خودکار"
@@ -1795,22 +1809,24 @@ proxy-groups:
     tolerance: 120
     proxies:
       - "Dr-Anv 🇨🇦"
+      - "🇳🇱+🇬🇧 hamedp71 ❤️"
+      - "🇩🇪 ShadowTLS-Proxy"
+      - "🇹🇷 😎hamedp71 1"
+      - "🇳🇱 😎hamedp71 6"
+      - "🇺🇸 😎hamedp71 2"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
-      - "🇹🇷 😎hamedp71 1"
+      - "🇫🇷 😎hamedp71 4"
       - "🇫🇮 😎hamedp71 3"
       - "🇳🇱 😎hamedp71 5"
-      - "🇳🇱 😎hamedp71 6"
       - "🇦🇺🔥hamedp71🔥2"
-      - "🇺🇸 😎hamedp71 2"
-      - "🇫🇷 😎hamedp71 4"
-      - "SS-hamedp71🇲🇦"
       - "🇳🇱 hamedp71 - 1"
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
       - "🇳🇱 hamedp71 - 6"
       - "🇬🇧 hamedp71 13"
+      - "SS-hamedp71🇲🇦"
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
       - "hamedp71-🇵🇱-47"
