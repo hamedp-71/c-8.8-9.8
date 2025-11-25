@@ -94,6 +94,90 @@ proxies:
     sni: "suiany.makingirangreatagain.com"
     servername: "suiany.makingirangreatagain.com"
 
+
+
+  - name: "🇭🇰 hamedp71 💚 1"
+    type: trojan
+    server: 58.152.110.120
+    port: 443
+    password: "2cf6d686799e6fa95316394064f26c0a"
+    sni: "www.nintendogames.net"
+    # allowInsecure=0 به معنی false است
+    skip-cert-verify: false
+    udp: true
+
+  - name: "🇯🇵 hamedp71 💚 2"
+    type: trojan
+    server: 160.16.107.37
+    port: 3093
+    password: "2cf6d686799e6fa95316394064f26c0a"
+    sni: "www.nintendogames.net"
+    # allowInsecure=0 به معنی false است
+    skip-cert-verify: false
+    udp: true
+
+  - name: "🇺🇸 hamedp71 💚 3"
+    type: trojan
+    server: 160.16.63.16
+    port: 2890
+    password: "2cf6d686799e6fa95316394064f26c0a"
+    sni: "www.nintendogames.net"
+    # allowInsecure=1 به معنی true است
+    skip-cert-verify: true
+    udp: true
+
+  - name: "🇺🇸 hamedp71 💚 2"
+    type: hysteria2
+    server: c37b0be5n-t3kyo0-t3lvgh-2gok.la.shifen.uk
+    port: 1743
+    password: "17cdeb6c-f046-11ee-bdac-f23c93141fad"
+    sni: "c37b0be5-t3kyo0-t3lvgh-2gok.la.shifen.uk"
+    skip-cert-verify: true
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+
+  - name: "🇺🇸 hamedp71 💚 4"
+    type: hysteria2
+    server: 98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk
+    port: 1743
+    password: "94931862-1484-11f0-9ab7-f23c95b6f51d"
+    sni: "98f4acfe-t4un40-tdini3-cdfn.la.shifen.uk"
+    skip-cert-verify: true
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+
+  - name: "🇺🇸 hamedp71 💚 5"
+    type: hysteria2
+    server: 14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk
+    port: 1743
+    password: "537d7098-fdbe-11ef-8ebc-f23c93141fad"
+    sni: "14ff4864-t4x400-tcjtj6-d70y.la.shifen.uk"
+    skip-cert-verify: true
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+
+  - name: "🇩🇪 hamedp71 💚 7"
+    type: hysteria2
+    server: de.eyucdn.xyz
+    port: 2056
+    password: "a084933d-0b41-4571-ae0c-7163b8c71ed1"
+    sni: "de.eyucdn.xyz"
+    skip-cert-verify: true
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+
+  - name: "🇹🇷 hamedp71 💚 8"
+    type: hysteria2
+    server: tr.xn--gmq00sc0nuve.shop
+    port: 21105
+    password: "da9adc6f-03ca-4d32-9e93-7b2bdbc9b00d"
+    # چون SNI مشخص نشده بود، از آدرس سرور استفاده می‌شود
+    sni: "tr.xn--gmq00sc0nuve.shop"
+    skip-cert-verify: true
+    up-speed: 20 mbps
+    down-speed: 100 mbps
+    
+
   - name: "hy2-hamedp71🏴‍☠️"
     type: hysteria2
     server: kevin.vpny.online
@@ -205,17 +289,16 @@ proxies:
     congestion_control: cubic
     udp_relay_mode: native
 
-
-  - name: 🇳🇱+🇬🇧 hamedp71 ❤️
+  # Hysteria2 Servers
+  - name: "hamedp71-48-🇩🇪"
     type: hysteria2
-    server: 193.142.59.41
-    port: 23899
-    password: c232f411-96b5-4b07-b2f7-66a434725ffb
-    sni: hl01.mistea.top
+    server: 77.90.41.197
+    port: 35000
+    password: "b4bd0613-ff7c-4f2f-954d-185915e6ddad"
+    sni: "jnir.pichondan.com"
     skip-cert-verify: true
-    up-speed: 50 mbps
-    down-speed: 200 mbps
-
+    obfs: salamander
+    obfs-password: "@JavidnamanIran-Javid-SHAH-KingRezaPahlavi"
 
   # کانفیگ سوم - ایتالیا
   - name: "SS-hamedp71🇩🇪"
@@ -224,14 +307,6 @@ proxies:
     port: 990
     cipher: chacha20-ietf-poly1305
     password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
-
-  # کانفیگ پنجم - مراکش
-  - name: "SS-hamedp71🇲🇦"
-    type: ss
-    server: 188.214.157.58
-    port: 990
-    cipher: chacha20-ietf-poly1305
-    password: "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="   
 
   # کانفیگ اول - آرژانتین
   - name: "SS-hamedp71🇦🇷"
@@ -277,24 +352,6 @@ proxies:
     obfs: salamander
     obfs-password: "Yet-Another-Public-Config-1"
     skip-cert-verify: false
-  - name: "🇳🇱 hamedp71 - 6"
-    type: hysteria2
-    server: 81.168.83.89
-    port: 2083
-    password: "YwuvGJk36B"
-    sni: ""
-    obfs: salamander
-    obfs-password: "khameniiko@smad@ret"
-    skip-cert-verify: true
-  - name: "🇬🇧 hamedp71 13"
-    type: hysteria2
-    server: 81.168.83.89
-    port: 2083
-    password: YwuvGJk36B
-    sni: kotlet.arshiacomplus.dpdns.org
-    skip-cert-verify: true
-    obfs: salamander
-    obfs-password: "khameniiko@smad@ret"
 
 #لهستان
   - name: "hamedp71-🇵🇱-47"
@@ -324,13 +381,6 @@ proxies:
     port: 9042
     cipher: aes-256-cfb
     password: "S7KwUu7yBy58S3Ga"
-    udp: true
-  - name: "hamedp71-🇵🇱-53"
-    type: ss
-    server: 217.30.10.18
-    port: 9027
-    cipher: aes-256-cfb
-    password: "EXN3S3eQpjE7EJu8"
     udp: true
   - name: "hamedp71-🇵🇱-55"
     type: ss
@@ -367,14 +417,7 @@ proxies:
     cipher: aes-256-cfb
     password: "NvS8N4Vf8qAGPSCL"
     udp: true
-  - name: "hamedp71-🇵🇱-67"
-    type: ss
-    server: 217.30.10.70
-    port: 9046
-    cipher: aes-256-cfb
-    password: "NvS8N4Vf8qAGPSCL"
-    udp: true
-
+    
 
   - name: "VLESS-Entry"
     type: vless
@@ -1767,13 +1810,17 @@ proxy-groups:
       - "اتصال❤️خودکار"
       - "🤍 وارپ"
       - "⛓️عمو زنجیر باف⛓️"
-      - "🇩🇪 ShadowTLS-Proxy"
       - "hy2-hamedp71🏴‍☠️"
       - "Dr-Anv 🇨🇦"
-      - "🇳🇱+🇬🇧 hamedp71 ❤️"
+      - "hamedp71-48-🇩🇪"
       - "🇹🇷 😎hamedp71 1"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
+      - "🇩🇪 hamedp71 💚 7"
+      - "🇹🇷 hamedp71 💚 8"
+      - "🇭🇰 hamedp71 💚 1"
+      - "🇯🇵 hamedp71 💚 2"
+      - "🇺🇸 hamedp71 💚 3"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
       - "🇫🇷 😎hamedp71 4"
@@ -1784,23 +1831,22 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
-      - "🇳🇱 hamedp71 - 6"
-      - "🇬🇧 hamedp71 13"
-      - "SS-hamedp71🇲🇦"
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
+      - "🇺🇸 hamedp71 💚 2"
+      - "🇺🇸 hamedp71 💚 4"
+      - "🇺🇸 hamedp71 💚 5"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
       - "hamedp71-🇵🇱-52"
-      - "hamedp71-🇵🇱-53"
       - "hamedp71-🇵🇱-55"
       - "hamedp71-🇵🇱-60"
       - "hamedp71-🇵🇱-61"
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
-      - "hamedp71-🇵🇱-67"
       - "🇩🇪 anytls-443"
+      - "🇩🇪 ShadowTLS-Proxy"
 
   - name: "اتصال❤️خودکار"
     type: url-test
@@ -1808,14 +1854,18 @@ proxy-groups:
     interval: 30
     tolerance: 120
     proxies:
+      - "hamedp71-48-🇩🇪"
       - "Dr-Anv 🇨🇦"
-      - "🇳🇱+🇬🇧 hamedp71 ❤️"
-      - "🇩🇪 ShadowTLS-Proxy"
       - "🇹🇷 😎hamedp71 1"
       - "🇳🇱 😎hamedp71 6"
       - "🇺🇸 😎hamedp71 2"
       - "🇫🇮🔥hamedp71🔥1"
       - "🇳🇱🔥hamedp71🔥3"
+      - "🇩🇪 hamedp71 💚 7"
+      - "🇹🇷 hamedp71 💚 8"
+      - "🇭🇰 hamedp71 💚 1"
+      - "🇯🇵 hamedp71 💚 2"
+      - "🇺🇸 hamedp71 💚 3"
       - "🇫🇷 😎hamedp71 4"
       - "🇫🇮 😎hamedp71 3"
       - "🇳🇱 😎hamedp71 5"
@@ -1824,22 +1874,20 @@ proxy-groups:
       - "🇳🇱 hamedp71 - 2"
       - "🇳🇱 hamedp71 - 3"
       - "🇳🇱 hamedp71 - 4"
-      - "🇳🇱 hamedp71 - 6"
-      - "🇬🇧 hamedp71 13"
-      - "SS-hamedp71🇲🇦"
       - "SS-hamedp71🇩🇪"
       - "SS-hamedp71🇦🇷"
+      - "🇺🇸 hamedp71 💚 2"
+      - "🇺🇸 hamedp71 💚 4"
+      - "🇺🇸 hamedp71 💚 5"
       - "hamedp71-🇵🇱-47"
       - "hamedp71-🇵🇱-49"
       - "hamedp71-🇵🇱-51"
       - "hamedp71-🇵🇱-52"
-      - "hamedp71-🇵🇱-53"
       - "hamedp71-🇵🇱-55"
       - "hamedp71-🇵🇱-60"
       - "hamedp71-🇵🇱-61"
       - "hamedp71-🇵🇱-62"
       - "hamedp71-🇵🇱-66"
-      - "hamedp71-🇵🇱-67"
       - "🇺🇸-hamedp71- § 0"
       - "🇵🇾-hamedp71- § 1"
       - "🇬🇧-hamedp71- § 2"
